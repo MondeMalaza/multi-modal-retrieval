@@ -4,6 +4,19 @@ The system uses CLIP (Contrastive Language-Image Pretraining), an open-source mo
 We only randomly sample 500 images from the given dataset. 
 The system includes an interactive streamlit user-interface.
 
-## Setup and installation
+## Requirements
+---
+You need to have Python and Pip installed on your machine. 
+
+Python v3.9+
+Pip v24+
+
+## Project setup for local dev
+The script can be run on local using VSCode or any other code editor that allows python scripts. 
+
+1. Clone project to your local environment
+
+   
+
 ## How to run the system
-## General Information
+## Project Structure
