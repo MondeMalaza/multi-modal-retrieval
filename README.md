@@ -29,7 +29,7 @@ The script can be run on local using VSCode or any other code editor that allows
    
 ## How to run the system
 
-After installing all the required libraries, run the following command
+After installing all the required libraries, open the terminal in the same project directory and run the following command
 
 `$ python application.py`
 ## Project Structure
