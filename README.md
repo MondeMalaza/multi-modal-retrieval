@@ -8,6 +8,7 @@ The system includes an interactive streamlit user-interface.
 You need to have Python and Pip installed on your machine. 
 
 Python v3.9+
+
 Pip v24+
 
 ## Project setup for local dev
