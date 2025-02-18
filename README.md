@@ -2,7 +2,7 @@
 A multi-modal image retrieval system for the Standard Bank Group Assessment for the Specialist, Artificial Intelligence role.
 The system uses CLIP (Contrastive Language-Image Pretraining), an open-source model developed by OpenAI to retrieve images matching the user's descriptive prompts, from a dataset of 5 541 images.
 We only randomly sample 500 images from the given dataset. 
-The system includes an interactive streamlit user-interface.
+The system includes an interactive Flas-based Web UI.
 
 ## Requirements
 You need to have Python and Pip installed on your machine. 
@@ -18,12 +18,14 @@ The script can be run on local using VSCode or any other code editor that allows
    
    `$ git clone https://github.com/MondeMalaza/Multi-Modal-Image-Retrieval.git`
 
-2. Go to the project directory and install the following libraries
+2. Go to the project directory 
    
-   `$ cd multi-modal retrieval system`
+   `$ cd multi-modal-retrieval`
+
+   ...and install the following libraries
    
-   `$ pip install pytorch torchvision torchaudio transformers pillow faiss-cpu streamlit numpy random`
-3. Ensure that you install CLIP from github and not the default one as this is the one from openAI
+   `$ pip install flask pytorch torchvision torchaudio transformers pillow faiss-cpu streamlit numpy random`
+4. Ensure that you install CLIP from github and not the default one as this is the one from openAI
 
    `$ pip install git+https://github.com/CLIP.get`
    
@@ -33,11 +35,11 @@ After installing all the required libraries, open the terminal in the same proje
 
 1. To run the retrieval system independent of the Web-Based UI, run the following command
 
-   `python image-retrieval.py`
+   `python app.py`
 
 2. To run the Web-Based UI image retrieval system, run the following command
 
-   `$ python application.py`
+   `$ python web_app.py --web`
 
    Open `http://127.0.0.1:5000` in your browser
 ## Project Structure
