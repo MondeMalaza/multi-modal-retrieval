@@ -29,7 +29,35 @@ The script can be run on local using VSCode or any other code editor that allows
    
 ## How to run the system
 
-After installing all the required libraries, open the terminal in the same project directory and run the following command
+After installing all the required libraries, open the terminal in the same project directory. 
 
-`$ python application.py`
+1. To run the retrieval system independent of the Web-Based UI, run the following command
+
+   `python image-retrieval.py`
+
+2. To run the Web-Based UI image retrieval system, run the following command
+
+   `$ python application.py`
+
+   Open `http://127.0.0.1:5000` in your browser
 ## Project Structure
+
+multi-modal-retrieval/
+
+│── images_dataset/            
+│── models/                    
+│── static/                    
+│── templates/                 
+│── src/                       
+│      │── __init__.py            
+│      │── preprocess.py          
+│      │── model.py               
+│      │── index.py               
+│      │── retrieval.py           
+│      │── web_app.py             
+│── tests/                     
+│── requirements.txt           
+│── app.py                     
+│── README.md                  
+│── .gitignore                 
+
