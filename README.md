@@ -44,20 +44,29 @@ After installing all the required libraries, open the terminal in the same proje
 
 multi-modal-retrieval/
 
-│── test_data_v2/            
-│── models/                    
-│── static/                    
-│── templates/                 
-│── src/                       
-│      │── __init__.py            
-│      │── preprocess.py          
-│      │── model.py               
-│      │── index.py               
-│      │── retrieval.py           
-│      │── application.py             
-│── tests/                     
-│── requirements.txt           
-│── image-retrieval.py                     
-│── README.md                  
-│── .gitignore                 
+│── test_data_v2/
+
+│── models/
+
+│── templates/
+
+│── src/
+
+│      │── __init__.py
+
+│      │── preprocess.py
+
+│      │── model.py
+
+│      │── index.py
+
+│      │── retrieval.py
+
+│      │── web_app.py
+
+│── tests/
+
+│── requirements.txt
+
+│── README.md               
 
