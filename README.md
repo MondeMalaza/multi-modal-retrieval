@@ -44,7 +44,7 @@ After installing all the required libraries, open the terminal in the same proje
 
 multi-modal-retrieval/
 
-│── images_dataset/            
+│── test_data_v2/            
 │── models/                    
 │── static/                    
 │── templates/                 
@@ -54,10 +54,10 @@ multi-modal-retrieval/
 │      │── model.py               
 │      │── index.py               
 │      │── retrieval.py           
-│      │── web_app.py             
+│      │── application.py             
 │── tests/                     
 │── requirements.txt           
-│── app.py                     
+│── image-retrieval.py                     
 │── README.md                  
 │── .gitignore                 
 
