@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Modal Retrieval</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        input { padding: 10px; width: 50%; }
+        button { padding: 10px; margin-top: 10px; }
+        .image-container { display: flex; justify-content: center; margin-top: 20px; }
+        img { width: 200px; margin: 5px; border-radius: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Multi-Modal Image Retrieval</h1>
+    <form method="post">
+        <input type="text" name="query" placeholder="Enter a description..." required>
+        <button type="submit">Search</button>
+    </form>
+
+    <div class="image-container">
+        {% for img in images %}
+            <img src="{{ img }}" alt="Retrieved Image">
+        {% endfor %}
+    </div>
+</body>
+</html>
