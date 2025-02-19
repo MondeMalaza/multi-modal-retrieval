@@ -24,10 +24,16 @@ The script can be run on local using VSCode or any other code editor that allows
 
    ...and install the following libraries
    
-   `$ pip install flask pytorch torchvision torchaudio transformers pillow faiss-cpu streamlit numpy random`
-4. Ensure that you install CLIP from github and not the default one as this is the one from openAI
+   `$ pip install kaggle flask pytorch torchvision torchaudio transformers pillow faiss-cpu streamlit numpy random`
+3. Ensure that you install CLIP from github and not the default one as this is the one from openAI
 
    `$ pip install git+https://github.com/CLIP.get`
+
+4. Setup your Kaggle API so you can be able to use the dataset found at `https://www.kaggle.com/datasets/alessandrasala79/ai-vs-human-generated-dataset/data?select=test_data_v2`
+
+   Get your Kaggle API key from your Kaggle settings.
+   
+   Save it as `~/.kaggle/kaggle.json` on your local machine. 
    
 ## How to run the system
 
