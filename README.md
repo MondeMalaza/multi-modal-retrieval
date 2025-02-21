@@ -78,5 +78,7 @@ multi-modal-retrieval/
 
 │── requirements.txt
 
+│── LICENSE
+
 │── README.md               
 
