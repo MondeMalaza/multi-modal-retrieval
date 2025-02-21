@@ -74,6 +74,10 @@ multi-modal-retrieval/
 
 │── tests/
 
+|── sys_architecture/
+
+│      │── MMR System Architecture.jpg
+
 │── requirements.txt
 
 │── README.md               
