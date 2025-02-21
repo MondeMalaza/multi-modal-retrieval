@@ -54,8 +54,6 @@ multi-modal-retrieval/
 
 │── test_data_v2/
 
-│── models/
-
 │── templates/
 
 │── src/
