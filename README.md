@@ -74,7 +74,7 @@ multi-modal-retrieval/
 
 |── sys_architecture/
 
-│      │── MMR System Architecture.jpg
+│      │── MMIR System Architecture.jpg
 
 │── requirements.txt
 
