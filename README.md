@@ -48,6 +48,29 @@ After installing all the required libraries, open the terminal in the same proje
    `$ python web_app.py --web`
 
    Open `http://127.0.0.1:5000` in your browser
+
+## Running Tets
+
+We wrote tests for the three components of the system, namely: 
+
+`preprocess.py`
+
+`retrieval.py`
+
+`web_app.py`
+
+1. Before running tests, you need to install the following libraries 
+
+   `pip install pytest pytest-mock requests`
+
+2. Always run unit tests from the project root, and not from the `tests/` directory. Run the following command for unit tests
+
+   `pytest tests/<testfile>`
+
+3. You can also run tests collectively for the project using this command
+
+   `pytest tests/`
+
 ## Project Structure
 
 multi-modal-retrieval/
